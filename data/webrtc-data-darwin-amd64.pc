@@ -1,7 +1,7 @@
-pc=${pcfiledir}
+pc=${pcfiledir}/..
 
-Name: webrtc
-Description: webrtc
+Name: webrtc/data
+Description: webrtc/data
 Version: 1
 
 Cflags: \
