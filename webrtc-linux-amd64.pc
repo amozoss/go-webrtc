@@ -1,5 +1,5 @@
 pc=${pcfiledir}
-jingle_peerconnection_internal_libs=-ljingle_peerconnection_internal -lboringssl -lprotobuf_lite
+jingle_peerconnection_internal_libs=-ljingle_peerconnection_internal -lprotobuf_lite -lboringssl
 
 Name: webrtc
 Description: webrtc

@@ -56,7 +56,8 @@ class Peer
     signalling_thread_->Start();  // Must start before being passed to
     worker_thread_->Start();      // PeerConnectionFactory.
 
-    this->fake_audio_ = FakeAudioCaptureModule::Create();
+    // ./peerconnection.cc:59: undefined reference to `FakeAudioCaptureModule::Create()' ¯\_(ツ)_/¯
+    //this->fake_audio_ = FakeAudioCaptureModule::Create();
     pc_factory = CreatePeerConnectionFactory(
       worker_thread_,
       signalling_thread_,
